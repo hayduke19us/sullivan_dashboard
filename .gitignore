@@ -1,0 +1,3 @@
+# Ignore all of the packages these can be generated with the package.json
+# and npm install --save
+/node_modules
