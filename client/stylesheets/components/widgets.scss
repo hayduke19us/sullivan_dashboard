@@ -1,10 +1,35 @@
 .widget {
+  transition: all 0.3s ease 0s;
+  transition-duration: 0.5s;
   height: 360px;
   width: 300px;
-  background-color: #145C9E;
+  float: left;
+  margin: 3px;
+
+  .fa {
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    padding-top: 33%;
+    opacity: 0.8;
+  }
 }
 
-.fa {
-  width: 100px;
-  height: 100px;
+.widget.weather {
+  background-color: $weather;
 }
+
+.widget.thermostat {
+  background-color: $thermo;
+}
+
+.widget.garden {
+  background-color: $garden;
+}
+
