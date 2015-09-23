@@ -8,11 +8,7 @@
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
-    div.main-content {
-    }
-
-}
-
+  }
 /* ----------- Retina Screens ----------- */
 @media screen
   and (min-device-width: 1200px)
@@ -30,12 +26,11 @@
 
 // Tablets
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
 /* Landscape */
@@ -44,7 +39,6 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
 /* ----------- iPad 1 and 2 ----------- */
@@ -53,7 +47,6 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
 /* Portrait */
@@ -62,7 +55,6 @@
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
 /* Landscape */
@@ -71,5 +63,21 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
+
+// Layout
+.main-content {
+  width: 100%;
+  padding: 3px;
+}
+
+.control-bar {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  left: 1200px;
+  background-color: darken($weather, 20%);
+  padding: 30px 0px 30px 0px;
+}
+
+.right { float: right; }

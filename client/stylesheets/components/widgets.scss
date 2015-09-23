@@ -2,10 +2,10 @@
   transition: all 0.3s ease 0s;
   transition-duration: 0.5s;
   height: 360px;
-  width: 300px;
+  min-width: 300px;
+  width: 25%;
   float: left;
-  margin: 6px;
-
+  box-shadow: inset 0 0 0 3px $dark-background;
 
   .fa {
     opacity: 0.8;
@@ -17,7 +17,6 @@
     color: white;
     font-family: 'Oxygen', sans-serif;
     text-align: center;
-    padding-top: 33%;
     opacity: 0.8;
   }
 }
@@ -32,7 +31,6 @@
 
 .widget.lg {
   width: 100%;
-  margin: 6px;
 
   h1{
     padding-top: 0;
