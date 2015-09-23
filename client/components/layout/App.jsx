@@ -7,8 +7,8 @@ module.exports = React.createClass({
         <div id='weather'></div>
         <div id='thermo'></div>
         <div id='garden'></div>
-        <div id='lights'></div>
         <div id='internet'></div>
+        <div id='lights'></div>
       </div>
     );
   }

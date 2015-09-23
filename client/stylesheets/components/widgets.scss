@@ -4,7 +4,8 @@
   height: 360px;
   width: 300px;
   float: left;
-  margin: 3px;
+  margin: 6px;
+
 
   .fa {
     opacity: 0.8;
@@ -21,6 +22,31 @@
   }
 }
 
+.widget.md {
+  width: 616px;
+
+  h1{
+    padding-top: 0;
+  }
+}
+
+.widget.lg {
+  width: 100%;
+  margin: 6px;
+
+  h1{
+    padding-top: 0;
+  }
+}
+
+
+a > .widget:hover {
+  background-color: darken($weather, 10%);
+  h1, .fa {
+    opacity: 1.0;
+  }
+}
+
 .widget.weather {
   background-color: $weather;
 }
@@ -33,3 +59,10 @@
   background-color: $garden;
 }
 
+.widget.lights {
+  background-color: $lights;
+}
+
+.widget.internet {
+  background-color: $internet;
+}
