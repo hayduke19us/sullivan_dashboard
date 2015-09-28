@@ -2,7 +2,7 @@ var React = require('react');
 var FontA_ = require('react-fontawesome');
 
 module.exports = React.createClass({
-  render: function(weather) {
+  render: function() {
     return (
       <a href='#'>
         <div className='widget weather'>
