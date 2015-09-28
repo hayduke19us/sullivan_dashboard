@@ -35,4 +35,3 @@ folders. All of which will contain an *_all* partial. The all file will have all
 of the reletive files compiled into it. All of the *all* folders are those
 imported into *main.scss*. 
 
-We are also using bootstrap?
