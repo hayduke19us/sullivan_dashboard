@@ -1,17 +1,21 @@
 ## Readme 
 
+My development flow is as follows
+
+1. All development occurs in local topic branches 
+
+2. A pull request is made off **origin/development** 
+
+3. topic branches are merged into development when reviewed and a thumbs up is
+   given
+
+4. Development is merged into Master as a first action of deployment
+
 A good starter project to investigate is
 [ Here ]( http://fredguest.com/2015/03/06/building-a-stateless-rails-api-with-react-and-twitter-oauth/ )
 To develop you must have npm installed.
 
 				brew install npm
-
-This is a test project to try and accomplish three things.
-
-* Set up react.js with webpack.js
-* Become familiar with react-routes.js
-* Set up pliny to interact with react
-* Set up dev environment with minitest for business logic
 
 **Check out these configurations.**
 
